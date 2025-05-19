@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.box1 {
+  background-color: black;
+  color: white;
+  border: 5px red solid;
+}
+
+.box1 h1 {
+  text-align: center;
+}
+
+.box2 {
+  border: 3px gray dotted;
+  padding: 20px 0;
+  margin: 20px;
+  text-align: center;
+}
