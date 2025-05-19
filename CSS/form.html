@@ -1,0 +1,120 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Form</h2>
+      <form>
+        <div class="form-group">
+          <label for="fname">First name *</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="enter your first name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="lname">Last name *</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="enter your last name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="enter your email"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password *</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="enter your password"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="confirm">Confirm Password *</label>
+          <input
+            type="password"
+            id="confirm"
+            name="confirm"
+            placeholder="enter your password again"
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Gender:</label>
+          <div class="radio-group">
+            <input type="radio" name="gender" value="male" /> Male
+            <input type="radio" name="gender" value="female" /> Female
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Hobbies</label>
+          <div class="checkbox-group">
+            <input type="checkbox" name="hobbies" value="music" /> Music
+            <input type="checkbox" name="hobbies" value="sports" /> Sports
+            <input type="checkbox" name="hobbies" value="travel" /> Travel
+            <input type="checkbox" name="hobbies" value="movies" /> Movies
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="income-source">Source of Income</label>
+          <select id="income-source" name="income-source">
+            <option>Employed</option>
+            <option>Unemployed</option>
+            <option>Freelancer</option>
+            <option>Student</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Income</label>
+          <div class="slider-group">
+            <input type="range" min="0" max="50000" step="1000" value=""
+            id="incomeRange"" />
+            <span class="slider-value" id="incomeValue">20K</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="profile">Upload Profile Picture</label>
+          <input type="file" id="profile" name="profile" />
+        </div>
+
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" value="18" min="0" />
+        </div>
+
+        <div class="form-group full-width">
+          <label for="bio">Bio</label>
+          <textarea id="bio" name="bio" rows="4"></textarea>
+        </div>
+
+        <div class="form-group button-group">
+          <button type="submit">Create</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

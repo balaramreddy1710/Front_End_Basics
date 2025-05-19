@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #4e6478, #b4d0da);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  flex-basis: 30%;
+  font-weight: bold;
+  color: #008080;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="number"],
+.form-group select,
+.form-group textarea {
+  flex-basis: 65%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group input[type="file"] {
+  flex-basis: 65%;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.form-group .checkbox-group,
+.form-group .radio-group {
+  flex-basis: 65%;
+}
+
+.slider-group {
+  display: flex;
+  align-items: center;
+}
+
+.slider-group input[type="range"] {
+  flex: 1;
+}
+
+.slider-value {
+  margin-left: 10px;
+  font-weight: bold;
+  background-color: #20c997;
+  padding: 4px 8px;
+  color: white;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group.full-width {
+  flex-direction: column;
+}
+
+.form-group.full-width textarea {
+  width: 100%;
+}
+
+.form-group.button-group {
+  text-align: center;
+}
+
+.form-group button {
+  background-color: #20c997;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #198754;
+}
