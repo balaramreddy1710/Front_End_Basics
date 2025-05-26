@@ -1,1 +1,2 @@
 ## Front End Basics Using HTML, CSS & JQUERY
+JQuery and JS functions - Selectors, Effects, Traversing, Ajax, Chaining, events, data binding, validations, response management, local storage, etc. HTML5, CSS3, SASS, JS, Events, Local Storage, Media Queries, Project Structure, DOM, HTML, CSS, JS, Forms, Flexbox, JSON Server, Float, Complex Selectors, Pseudo Class, Elements, Shadow, Vector, Media Content
